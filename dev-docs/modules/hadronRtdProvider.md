@@ -54,7 +54,7 @@ and segment configurations.
 pbjs.setConfig(
     ...
     realTimeData: {
-        auctionDelay: auctionDelay,
+        auctionDelay: 100,
         dataProviders: [
             {
                 name: "hadron",
@@ -98,7 +98,7 @@ a bid adapter called adBuzz and perform custom logic on bidder parameters.
 pbjs.setConfig(
     ...
     realTimeData: {
-        auctionDelay: auctionDelay,
+        auctionDelay: 100,
         dataProviders: [
             {
                 name: "hadron",
